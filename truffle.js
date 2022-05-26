@@ -14,17 +14,9 @@ module.exports = {
     },
     rinkeby:{
       provider: function(){return new HDWalletProvider("f d o d y",infuraKey) ;},
-      //network_id:'*',
-      //gas:4500000,
-      //gasPrice:1000000000,
-
-      from: '0xBb1089f000E9B',
-      network_id: 4,
-      shareNonce: true,
-      derivationPath: "m/44'/1'/0'/0/",
-      networkCheckTimeoutnetworkCheckTimeout: 10000,
-      timeoutBlocks: 200
-      ,
+      network_id:'*',
+      gas:4500000,
+      gasPrice:1000000000,
     }
   },
   compilers: {
